@@ -10,7 +10,7 @@ def computepay(h,r):
         P=normaltime+overtime
         return (print("Pay",P))
     else:
-        P=h*rt
+        P=h*r
         return (print("Pay",P))
 
 computepay(10,20)
